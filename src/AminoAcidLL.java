@@ -35,6 +35,25 @@ class AminoAcidLL{
   }
 
   /********************************************************************************************/
+  /* helper method for finding the list difference on two matching nodes
+  *  must be matching, but this is not tracked */
+  private int totalDiff(AminoAcidLL inList){
+    return Math.abs(totalCount() - inList.totalCount());
+  }
+
+
+  /********************************************************************************************/
+  /* helper method for finding the list difference on two matching nodes
+  *  must be matching, but this is not tracked */
+  private int codonDiff(AminoAcidLL inList){
+    int diff = 0;
+    for(int i=0; i<codons.length; i++){
+      diff += Math.abs(counts[i] - inList.counts[i]);
+    }
+    return diff;
+  }
+
+  /********************************************************************************************/
   /* Recursive method that finds the differences in **Amino Acid** counts. 
    * the list *must* be sorted to use this method */
   public int aminoAcidCompare(AminoAcidLL inList){

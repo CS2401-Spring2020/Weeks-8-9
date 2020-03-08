@@ -81,3 +81,12 @@ Late policy:
 | | develop `aminoAcidCompare` method | 
 | | develop `codonCompare` method | 
 
+# Extended example
+Given the RNA sequence `CCGUUGGCACUG`, the construction method would make the following codon conversions:
+![](images/codonConvert.png)
+
+After the data structure that is returned is 
+![](images/unsorted.png)
+
+Then after we run `sort()`, we would get the following:
+![](images/sorted.png)
