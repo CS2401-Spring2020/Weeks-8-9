@@ -1,3 +1,7 @@
+*.project*
+*.classpath*
+*.pages
+
 # Compiled class file
 *.class
 
