@@ -82,8 +82,8 @@ Late policy:
 | | develop `codonCompare` method | 
 
 # Extended example
-Given the RNA sequence `CCGUUGGCACUG`, the construction method would make the following codon conversions:
-![](images/codonConvert.png)
+Given the RNA sequence `CCGUUGGCACUGUUG`, the construction method would make the following codon conversions:
+![](images/codon_convert.png)
 
 After the data structure that is returned is 
 ![](images/unsorted.png)
