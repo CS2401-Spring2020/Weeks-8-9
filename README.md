@@ -46,7 +46,7 @@ You will also recive the frame of the `AminoAcidLL` class. Do not change the exi
 1. `AminoAcidLLTester.java` -- contains at least 10 test cases testing the methods above. 
 
 ## Due date
-Your assignment must be committed to GitHub by **Friday, 27 March 2020 @ 11:59pm**, _note the instructors will not be available for help after 6pm on the due date._ 
+Your assignment must be committed to GitHub by **Friday, ~27 March~ 3 April 2020 @ 11:59pm**, _note the instructors will not be available for help after 6pm on the due date._ 
 
 Late policy: 
 * -10 points for assignments turned in 1 day late
